@@ -1,13 +1,14 @@
-const accountId = 144553
-let accountEmail = "diksha@google.com"
+const accountId = 144567
+let accountEmail = "bhardwaz@gmail.com"
 var accountPassword = "12345"
 accountCity = "Darbhanga"
 
-//accountId = 2 // not alowed
-console.log(accountId);
-accountEmail = "bhardwaz@gmail.com"
-accountPassword = "345678"
-accountCity = "Bihar"
-let accountState;
+let accountState 
 
-console.table([accountId, accountEmail, accountPassword, accountCity, accountState])
+accountEmail = "diksha@gmail.com"
+accountPassword = "67890"
+accountCity = "Chandigarh"
+
+console.log(accountId);
+console.log([accountId, accountEmail, accountPassword, accountCity]);
+console.table([accountId, accountEmail, accountPassword, accountCity, accountState]);
