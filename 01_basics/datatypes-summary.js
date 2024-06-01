@@ -3,6 +3,7 @@
 // 7 types : String, Number, Boolean, Null,undefined, symbol, Bigint
 
 //---javascript is dynamically typed language
+
 const score = 100
 const scoreValue = 100.3
 
@@ -28,3 +29,31 @@ const myFunction = function(){
     console.log("Hello World");
 }
 console.log(typeof bigNumber);
+
+//memory 
+// stack(Primitive), heap(Non-primitive)
+
+/*let myYoutubename = "dikshabhardwazdotcom"
+let anothername = myYoutubename
+anothername = "chaiaurcode"
+console.log(myYoutubename);
+console.log(anothername);*/
+
+//////////+++++++++++++++++++++++++++++++++++///////////////
+//Stack(primitive), Heap(non-primitive)
+
+let myYoutubename = "dikshabhardwazdotcom"
+
+let anothername = myYoutubename
+anothername = "bhardwazdikshadotcom"
+console.log(myYoutubename);
+console.log(anothername);
+
+let userOne = {
+    email : "user@google.com",
+    upi : "user@ybl"
+}
+let userTwo = userOne
+userTwo.email = "diksha@google.com"
+console.log(userOne.email);
+console.log(userTwo.email);
