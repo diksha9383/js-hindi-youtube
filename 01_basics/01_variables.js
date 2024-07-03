@@ -1,14 +1,16 @@
-const accountId = 144567
-let accountEmail = "bhardwaz@gmail.com"
-var accountPassword = "12345"
-accountCity = "Darbhanga"
+const accountId = 12345
+let accountEmail = "diksha@google.com"
+var accountPassword = "98765"
+accountCity = "Bihar"
 
-let accountState 
-
-accountEmail = "diksha@gmail.com"
-accountPassword = "67890"
-accountCity = "Chandigarh"
-
+let accountState;
+//accountId = 2 // not allowed
 console.log(accountId);
-console.log([accountId, accountEmail, accountPassword, accountCity]);
-console.table([accountId, accountEmail, accountPassword, accountCity, accountState]);
+
+accountEmail = "hc@hc.com"
+accountPassword = "2121221"
+accountCity = "Bangaluru"
+console.log(accountId);
+
+console.table([accountId, accountEmail, accountPassword, accountCity, accountState])
+
